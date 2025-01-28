@@ -4,8 +4,21 @@
 
 ### Truth Table
 
-Insert your truth table here
-
+| Month     | A | B | C | D | Y |
+|-----------|---|---|---|---|---|
+|           | 0 | 0 | 0 | 0 | X |
+| January   | 0 | 0 | 0 | 1 | 1 |
+| February  | 0 | 0 | 1 | 0 | 0 |
+| March     | 0 | 0 | 1 | 1 | 1 |
+| April     | 0 | 1 | 0 | 0 | 0 |
+| May       | 0 | 1 | 0 | 1 | 1 |
+| June      | 0 | 1 | 1 | 0 | 0 |
+| July      | 0 | 1 | 1 | 1 | 1 |
+| August    | 1 | 0 | 0 | 0 | 1 |
+| September | 1 | 0 | 0 | 1 | 0 |
+| October   | 1 | 0 | 1 | 0 | 1 |
+| Novemeber | 1 | 0 | 1 | 1 | 0 |
+| December  | 1 | 1 | 0 | 0 | 1 |
 ### Boolean Equation
 
 $$
