@@ -19,6 +19,9 @@
 | October   | 1 | 0 | 1 | 0 | 1 |
 | Novemeber | 1 | 0 | 1 | 1 | 0 |
 | December  | 1 | 1 | 0 | 0 | 1 |
+|           | 1 | 1 | 0 | 1 | X |
+|           | 1 | 1 | 1 | 0 | X |
+|           | 1 | 1 | 1 | 1 | X |
 ### Boolean Equation
 
 $$
