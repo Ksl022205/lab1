@@ -90,8 +90,8 @@ begin
 	test_process : process 
 	begin
 	-- Place test cases here. The first two have been written for you
-		w_sw <= x"0"; wait for 10 ns;
-            assert w_Y = 'U' report "error on x0" severity failure;
+	w_sw <= x"0"; wait for 10 ns;
+            assert w_Y = '0' report "error on x0" severity failure;
         w_sw <= x"1"; wait for 10 ns;
             assert w_Y = '1' report "error on Jan" severity failure;   
         w_sw <= x"2"; wait for 10 ns;
@@ -117,11 +117,11 @@ begin
         w_sw <= x"C"; wait for 10 ns;
             assert w_Y = '1' report "error on Dec" severity failure;
         w_sw <= x"D"; wait for 10 ns;
-            assert w_Y = 'U' report "error on x13" severity failure;
+            assert w_Y = '0' report "error on x13" severity failure;
         w_sw <= x"E"; wait for 10 ns;
-            assert w_Y = 'U' report "error on x14" severity failure;
+            assert w_Y = '1' report "error on x14" severity failure;
         w_sw <= x"F"; wait for 10 ns;
-            assert w_Y = 'U' report "error on x15" severity failure;
+            assert w_Y = '0' report "error on x15" severity failure;
 		wait; -- wait forever
 	end process;	
 	-----------------------------------------------------	
